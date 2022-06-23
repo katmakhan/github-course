@@ -29,3 +29,6 @@ git config credential.username katmakhan
 
 RENAME BRANCH:
 git branch -m <oldname> <newname>
+
+LOG HISTROY:
+git log
