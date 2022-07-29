@@ -77,10 +77,14 @@ This contains all the necessary CMD line commands to execute and add new reposit
 	```
 - Force RESET Git
 	```console
-	git reset --soft HEAD
+	git reset --hard origin/master 
 	```
-
+- Reset to a commit
+	```console
+	git reset <commithash>
+	```
 - Force UPDATE Git
 	```console
 	git push origin <branchName> --force
 	```
+	
