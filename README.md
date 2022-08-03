@@ -5,43 +5,51 @@ This contains all the necessary CMD line commands to execute and add new reposit
 ## Follow these methods to get started
 
 - Git ORIGIN 
+	ADD ORIGIN URL
 	```console
 	git add remote origin <github-url>
 	```
+	REMOVE ORIGIN URL
 	```console
 	git remote rm origin
 	```
+	VIEW ORIGIN URL
 	```console
-	git remote -v - To view the origin
+	git remote -v
 	```
-	Renaming the origin 
+	RENAMING ORIGIN URL
 	```console
 	git remote set-url origin <new-url>
 	```
 
 - GIT PROCEDURE:
-	To add new files and updating the commits in the github
+	ADD Files to staging
 	```console
 	git add .
 	```
+	COMMIT the changes
 	```console
 	git commit -m "init"
 	```
+	PUSH the changes to GITHUB
 	```console
 	git push origin master
 	```
 
 - Viewing GIT
-	To view the git user and email credentials
+	VIEW GIT USER and EMAIL credentials
 	```console
 	git config --global --list
 	```
+	VIEW USERNAME
 	```console
 	git config credential.username
 	```
+	VIEW USERNAME
 	```console
 	git config user.name
 	```
+	VIEW EMAIL
 	```console
 	git config user.email
 	```
@@ -75,15 +83,15 @@ This contains all the necessary CMD line commands to execute and add new reposit
 	```console
 	git log
 	```
-- Force RESET Git
+- FORCE RESET Git
 	```console
 	git reset --hard origin/master 
 	```
-- Reset to a commit
+- RESET to a previous COMMIT
 	```console
 	git reset <commithash>
 	```
-- Force UPDATE Git
+- FOURCE UPDATE
 	```console
 	git push origin <branchName> --force
 	```
