@@ -46,6 +46,7 @@ This contains all the necessary CMD line commands to execute and add new reposit
 	```console
 	git config --global --list
 	```
+- CHANGE GITHUB CREDENTIALS
 	- CHANGE USERNAME
 	```console
 	git config user.name <name>
@@ -53,10 +54,6 @@ This contains all the necessary CMD line commands to execute and add new reposit
 	- CHANGE EMAIL
 	```console
 	git config user.email <email>
-	```
-	- VIEW USERNAME
-	```console
-	git config credential.username
 	```
 
 
@@ -71,13 +68,13 @@ This contains all the necessary CMD line commands to execute and add new reposit
 	- git config credential.username <user-id>
 	```
 	- NOTE:
-	Changing the name, whether name contains spaces or not
-	```console
-	git config user.name "<if name with spaces>"
-	```
-	```console
-	git config user.name <if name contains no spaces>
-	```
+		- Changing the name, whether name contains spaces or not
+		```console
+		git config user.name "<if name with spaces>"
+		```
+		```console
+		git config user.name <if name contains no spaces>
+		```
 
 
 - RENAME BRANCH
