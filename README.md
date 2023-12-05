@@ -89,6 +89,7 @@ This contains all the necessary CMD line commands to execute and add new reposit
 	git log
 	```
 - FORCE RESET
+  DO it after the `git pull origin master`, to forcefully make it same as the remote branch
 	```console
 	git reset --hard origin/master 
 	```
