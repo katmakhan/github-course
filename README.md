@@ -12,7 +12,7 @@ This contains all the necessary CMD line commands to execute and add new reposit
 - GIT ORIGIN 
 	- ADD ORIGIN URL
 	```console
-	git add remote origin <github-url>
+	git remote add origin <github-url>
 	```
 	- REMOVE ORIGIN URL
 	```console
